@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
 						intento+1; 	
 					break;
 					case 2:
-						while(contpart<=3 || tesoro ==1){
+						while(contpart<=3 || tesoro !=1){
 							printf("en que parte del salon deseas buscar?\n");
 							printf("1) debajo de las sillas");
 							printf("2) detras del pizarron");
@@ -101,7 +101,7 @@ int main(int argc, char *argv[])
 						intento+1;	
 					break;			
 					case 3:
-						while(contpart<=2 || parte ==3){
+						while(contpart<=2 || tesoro !=1){
 							printf("en que parte del salon deseas buscar?\n");
 							printf("1) debajo de las sillas");
 							printf("2) detras del pizarron");
